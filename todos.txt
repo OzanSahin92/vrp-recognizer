@@ -1,0 +1,6 @@
+- Quelle für alle deutschen (fürs erste) Autoplaketten finden
+- Datenbank mit allen Autoplaketten von Europa füllen, dafür den webscrapper nutzen
+- vrpRecognizer als RestAPI programmieren, die zwei Zeichenketten kriegt:
+		1. Zeichenkette 1, z.B. "D"
+		2. Zeichenkette 2, z.B. "B"
+	vrpRecognizer antwortet darauf mit dem Land (hier Deutschland) und der Stadt (hier Berlin)
