@@ -17,6 +17,7 @@ from django.contrib import admin
 from django.urls import path
 from vrpRecognizer.vrpAssigner.views import vrpAssigner
 
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('vrpRecognizer/vrpAssigner/', vrpAssigner)
