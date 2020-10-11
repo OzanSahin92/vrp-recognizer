@@ -1,5 +1,6 @@
 - Quelle für alle deutschen (fürs erste) Autoplaketten finden  (done)
 - Datenbank mit allen Autoplaketten von Europa füllen, dafür den webscrapper nutzen (not done)
+	-> django tutorial nochmal genau lesen
 - vrpRecognizer als RestAPI programmieren, die zwei Zeichenketten kriegt:
 		1. Zeichenkette 1, z.B. "D"
 		2. Zeichenkette 2, z.B. "B"
