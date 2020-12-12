@@ -1,0 +1,2 @@
+python manage.py loaddata utils/vrpCodesGermany.json  - to add the data utils/vrpCodesGermany.json into existing database of the same format based on model migrated
+ython manage.py flush - to delete all existing data from database table based on model migrated

@@ -25,8 +25,8 @@ for result in results:
                                 'fields':
                                     {'countryCode': 'D',
                                      'country': 'Deutschland',
-                                     'cityCode': result.text.split('-', 1)[0].replace('\n', '').replace('\r', ''),
-                                     'city': result.text.split('-', 1)[1].replace('\n', '').replace('\r', '')
+                                     'cityCode': result.text.split('-', 1)[0].replace('\n', '').replace('\r', '').replace(' ', ''),
+                                     'city': result.text.split('-', 1)[1].replace('\n', '').replace('\r', '').strip()
                                      }
                                 }
                                )
