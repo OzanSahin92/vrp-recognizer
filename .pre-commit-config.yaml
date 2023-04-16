@@ -20,5 +20,4 @@ repos:
           [
             "--fail-under=7",
             "--rcfile=./.pylintrc",
-            "--extension-pkg-whitelist=cv2"
           ]
