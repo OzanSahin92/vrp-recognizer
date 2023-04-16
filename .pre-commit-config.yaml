@@ -1,0 +1,24 @@
+repos:
+-   repo: https://github.com/ambv/black
+    rev: 23.3.0
+    hooks:
+    - id: black
+      additional_dependencies: ['click==8.0.4']
+-   repo: https://github.com/kynan/nbstripout
+    rev: 0.6.1
+    hooks:
+      - id: nbstripout
+        files: ".ipynb"
+-   repo: local
+    hooks:
+      - id: pylint
+        name: pylint
+        entry: pylint
+        language: system
+        types: [python]
+        args:
+          [
+            "--fail-under=7",
+            "--rcfile=./.pylintrc",
+            "--extension-pkg-whitelist=cv2"
+          ]

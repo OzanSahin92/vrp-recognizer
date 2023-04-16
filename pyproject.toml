@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "vrp-recognizer"
+version = "0.1.0"
+description = ""
+authors = ["Ozan Sahin <o.sahin@cartelsol.com>"]
+readme = "README.md"
+packages = [{include = "vrp_recognizer"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.0.0"
+numpy = "^1.24.2"
+matplotlib = "^3.7.1"
+ipympl = "^0.9.3"
+openpyxl = "^3.1.2"
+pytesseract = "^0.3.10"
+opencv-python = "^4.7.0.72"
+imutils = "^0.5.4"
+django = "^4.2"
+bs4 = "^0.0.1"
+djangorestframework = "^3.14.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.3.0"
+pylint = "^2.17.2"
+black = "^23.3.0"
+jupyterlab = "^3.6.3"
+pre-commit = "^3.2.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

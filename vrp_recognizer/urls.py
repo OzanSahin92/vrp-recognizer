@@ -15,10 +15,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from vrpRecognizer.vrpAssigner.views import vrpAssigner
+from vrp_assigner.views import vrp_assigner
 
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('vrpRecognizer/vrpAssigner/', vrpAssigner)
+    path("admin/", admin.site.urls),
+    path("vrp_assigner/", vrp_assigner),
 ]
